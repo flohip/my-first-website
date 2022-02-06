@@ -18,59 +18,73 @@
     <!-- Navbar -->
     <div class="navbar">
       <div class="container flex">
-        <h1 class="logo">Welcome</h1>
+        <h1 class="welcome">Welcome on my Website</h1>
         <nav>
           <ul>
-            <li><a href="index.html"><Home</a>Home</li>
-            <li><a href="aboutme.html"><Home</a>AboutMe</li>
-            <li><a href="neuefische.html"><Home</a>neuefische</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">AboutMe</a></li>
+            <li><a href="#">Links</a></li>
           </ul>
         </nav>
       </div>
     </div>
-    <!-- AboutMe -->
+    <!-- Showcase -->
     <section class="showcase">
-      <div class="container grid">
-        <div class="showcase-text">
-          <h1>My name is Florian</h1>
-          <p>
-            I am a turtle student from 31th January until 28th April 2022, at
-            the neuefische course for web development.
-          </p>
-          <a href="aboutme.html" class="btn btn-outline">Who Am I?</a>
+      <div class="container flex">
+        <img class="pic" src="img/1080794.jpeg" alt="little turtle" />
+        <p>
+          Hello and welcome on my Website! My name is Florian and i am a turtle
+          student from 31th January until 28th April 2022, at the neuefische
+          course for web development.
+        </p>
+      </div>
+      <div class="container flex">
+        <p>
+          Let's get on this journey together, and enjoy the fulfillment you get,
+          after learning new things and to be able to use it properly
+          afterwards!
+        </p>
+        <img class="pic" src="img/dampflok.jpg" alt="steam train" />
+      </div>
+      <div class="container flex">
+        <img
+          class="pic neuefische-logo"
+          src="img/neue-20fische.jpg"
+          alt="orangenes neuefische logo"
+        />
+        <p>
+          There are multiple courses, so you can decide which would fit your
+          preferred entry into the huge world of the IT !
+        </p>
+      </div>
+    </section>
+    <section class="links">
+      <div class="container flex">
+        <div class="card flex">
+          <a href="https://github.com/flohip/my-first-website" target="_blank">
+            <img class="icon" src="img/GitHub_Logo.png" alt="Github Logo" ; />
+          </a>
         </div>
-        <div class="contact-form card">
-          <h2>Contact me!</h2>
-          <form>
-            <div class="form-control">
-              <input type="text" name="name" placeholder="Name" required />
-            </div>
-            <div class="form-control">
-              <input type="text" name="email" placeholder="E-Mail" required />
-            </div>
-            <div class="form-control">
-              <input
-                type="text"
-                name="message"
-                placeholder="Message"
-                required
-              />
-            </div>
-            <input type="submit" value="Send" class="btn btn-primary" />
-          </form>
+        <div class="card flex">
+          <a href="https://www.neuefische.de/" target="_blank">
+            <img
+              class="icon"
+              src="img/neuefische-gmbh-logo.svg"
+              alt="neuefische Logo"
+              ;
+            />
+          </a>
+        </div>
+        <div class="card flex">
+          <a href="https://developer.mozilla.org/de/" target="_blank">
+            <img class="icon" src="img/mdn-logo.png" alt="MDN Logo" ; />
+          </a>
         </div>
       </div>
     </section>
-    <!-- neuefische -->
-    <!-- <section class="showcase">
-      <div class="container grid">
-        <div class="showcase-text">
-          <h1>neuefische</h1>
-          <h2>School and Pool for Digital Talent</h2>
-          <p>neuefische offers different courses for a career in the IT tech</p>
-          <a href="neuefische.html" class="btn btn-outline">Look it up!</a>
-        </div>
-      </div>
-    </section> -->
+
+    <footer class="flex">
+      <p>© Florian Hippenstiel 2022</p>
+    </footer>
   </body>
 </html>

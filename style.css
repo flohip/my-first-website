@@ -74,8 +74,10 @@ img {
 .navbar {
   background-color: var(--green-color);
   color: var(--sand-color);
-  height: 100px;
+  height: 120px;
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 .navbar .welcome {
   margin: 10px 0;
@@ -100,7 +102,7 @@ img {
 }
 
 .navbar .flex {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* Showcase */
@@ -108,7 +110,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex: 1;
 }
 .showcase p {
@@ -121,6 +123,7 @@ img {
   overflow: visible;
   padding: 10px 50px;
   height: 100%;
+  display: flex;
   flex: 1;
 }
 
@@ -132,7 +135,7 @@ img {
   width: 100%;
 }
 .container .flex {
-  flex: 1;
+  /* flex: 1; */
   justify-content: center;
 }
 .card {
@@ -150,7 +153,8 @@ img {
   background-color: var(--steelblue-color);
   overflow: auto;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 50px 0;
 }
